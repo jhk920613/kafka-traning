@@ -1,0 +1,16 @@
+io/namoosori/springkafka/domain/entity/TenantStats.java
+ io.namoosori.springkafka.domain.entity.TenantStats
+io/namoosori/springkafka/SpringKafkaApp.java
+ io.namoosori.springkafka.SpringKafkaApp
+io/namoosori/springkafka/stream/EventConsumer.java
+ io.namoosori.springkafka.stream.EventConsumer
+io/namoosori/springkafka/api/rest/TenantStatsResource.java
+ io.namoosori.springkafka.api.rest.TenantStatsResource
+io/namoosori/springkafka/domain/event/TenantCreated.java
+ io.namoosori.springkafka.domain.event.TenantCreated
+io/namoosori/springkafka/domain/event/TenantRemoved.java
+ io.namoosori.springkafka.domain.event.TenantRemoved
+io/namoosori/springkafka/stream/EventStream.java
+ io.namoosori.springkafka.stream.EventStream
+io/namoosori/springkafka/store/TenantStatsStore.java
+ io.namoosori.springkafka.store.TenantStatsStore

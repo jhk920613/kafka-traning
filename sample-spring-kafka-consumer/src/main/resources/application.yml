@@ -1,0 +1,16 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: consumer
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 127.0.0.1:9092
+      bindings:
+        event-consumer:
+          destination: data_stream
+          contentType: application/json
+          group: kafka-consumer
